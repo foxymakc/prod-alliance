@@ -64,7 +64,7 @@ export const listInfoAboutUs = {
 export const listInfoBtnMessage = {
   btnMessageImgWhatsapp: imgWhatsapp,
   hrefWhatsapp:
-    "https://api.whatsapp.com/send?phone=79037221826&text=Добрый%20день.%20При%20посищении%20вашего%20сайта%20у%20меня%20возникли%20вопросы:",
+    "https://api.whatsapp.com/send?phone=79037221826&text=Добрый%20день.%20При%20посeщении%20вашего%20сайта%20у%20меня%20возникли%20вопросы:",
   btnMessageImgPhone: imgPhone,
   hrefPhone: "tel:+79037221826",
   btnMessageImgQuestion: imgQuestion,
