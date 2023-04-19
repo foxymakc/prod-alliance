@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/prod-alliance/static/css/main.afdf60ef.css",
+    "main.js": "/prod-alliance/static/js/main.3816051b.js",
+    "static/js/787.5d9fd846.chunk.js": "/prod-alliance/static/js/787.5d9fd846.chunk.js",
+    "static/media/top-img.jpg": "/prod-alliance/static/media/top-img.af4a73a4eb336405e870.jpg",
+    "static/media/chicken.jpg": "/prod-alliance/static/media/chicken.752cee415081dec8eb2e.jpg",
+    "static/media/meat.jpg": "/prod-alliance/static/media/meat.fc962c81099b11dde376.jpg",
+    "static/media/dumpings.jpg": "/prod-alliance/static/media/dumpings.efa0d3b0b9296055660a.jpg",
+    "static/media/tableMeat.png": "/prod-alliance/static/media/tableMeat.15f6ab1ff2d85a73dd20.png",
+    "static/media/tableDumpings.png": "/prod-alliance/static/media/tableDumpings.3da676c91148301755fb.png",
+    "static/media/tableChicken.png": "/prod-alliance/static/media/tableChicken.d0160799d3dd73a06b9f.png",
+    "static/media/evolventa-regular.woff2": "/prod-alliance/static/media/evolventa-regular.d807a96d6b111ec32e20.woff2",
+    "static/media/evolventa-bold.woff2": "/prod-alliance/static/media/evolventa-bold.08cd6ab6aa09fe6ff4e9.woff2",
+    "static/media/evolventa-bold.woff": "/prod-alliance/static/media/evolventa-bold.1b9c8e7cfb4c420a7be8.woff",
+    "static/media/evolventa-regular.woff": "/prod-alliance/static/media/evolventa-regular.667281ef109c4cc67498.woff",
+    "static/media/logo.prod-a.apple.png": "/prod-alliance/static/media/logo.prod-a.apple.e13ed6ce986946a808dd.png",
+    "static/media/support.png": "/prod-alliance/static/media/support.f81eb65fa925e67c7cdc.png",
+    "static/media/logistics.png": "/prod-alliance/static/media/logistics.cbc18498da21d85d239c.png",
+    "index.html": "/prod-alliance/index.html",
+    "main.afdf60ef.css.map": "/prod-alliance/static/css/main.afdf60ef.css.map",
+    "main.3816051b.js.map": "/prod-alliance/static/js/main.3816051b.js.map",
+    "787.5d9fd846.chunk.js.map": "/prod-alliance/static/js/787.5d9fd846.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.afdf60ef.css",
+    "static/js/main.3816051b.js"
+  ]
+}
