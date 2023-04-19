@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/prod-alliance/static/css/main.afdf60ef.css",
+    "main.css": "/prod-alliance/static/css/main.0464eee9.css",
     "main.js": "/prod-alliance/static/js/main.e4198d79.js",
     "static/js/787.5d9fd846.chunk.js": "/prod-alliance/static/js/787.5d9fd846.chunk.js",
     "static/media/top-img.jpg": "/prod-alliance/static/media/top-img.af4a73a4eb336405e870.jpg",
@@ -18,12 +18,12 @@
     "static/media/support.png": "/prod-alliance/static/media/support.f81eb65fa925e67c7cdc.png",
     "static/media/logistics.png": "/prod-alliance/static/media/logistics.cbc18498da21d85d239c.png",
     "index.html": "/prod-alliance/index.html",
-    "main.afdf60ef.css.map": "/prod-alliance/static/css/main.afdf60ef.css.map",
+    "main.0464eee9.css.map": "/prod-alliance/static/css/main.0464eee9.css.map",
     "main.e4198d79.js.map": "/prod-alliance/static/js/main.e4198d79.js.map",
     "787.5d9fd846.chunk.js.map": "/prod-alliance/static/js/787.5d9fd846.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.afdf60ef.css",
+    "static/css/main.0464eee9.css",
     "static/js/main.e4198d79.js"
   ]
 }
