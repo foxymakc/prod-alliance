@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Evolventa";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Evolventa"), url(./evolventa-bold.woff2) format("woff2"),
+    url(./evolventa-bold.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Evolventa";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Evolventa"), url(./evolventa-regular.woff2) format("woff2"),
+    url(./evolventa-regular.woff) format("woff");
+}

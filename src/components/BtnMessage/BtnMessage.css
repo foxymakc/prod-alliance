@@ -1,0 +1,138 @@
+.demo__buttons {
+  position: fixed;
+  bottom: 70px;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  transform: translate(-100px, -100px);
+  z-index: 6;
+  display: none;
+}
+
+.demo__buttons.step-0 .demo__social-btn-1,
+.demo__buttons.step-0 .demo__social-btn-2,
+.demo__buttons.step-0 .demo__social-btn-3,
+.demo__buttons.step-0 .demo__social-btn-4 {
+  transform: translate3d(-80px, -80px, 0);
+}
+.demo__buttons.step-1 .demo__social-btn-1 {
+  transform: translate3d(0, -80px, 0);
+}
+.demo__buttons.step-1 .demo__social-btn-2,
+.demo__buttons.step-1 .demo__social-btn-3,
+.demo__buttons.step-1 .demo__social-btn-4 {
+  transform: translate3d(-80px, 0, 0);
+}
+.demo__buttons.step-2 .demo__social-btn-1 {
+  transform: translate3d(0, -80px, 0);
+}
+.demo__buttons.step-2 .demo__social-btn-2 {
+  transform: translate3d(-80px, 0, 0);
+}
+
+/* Если будет 4 иконки добавить стили снизу
+.demo__buttons.step-2 .demo__social-btn-3,
+.demo__buttons.step-2 .demo__social-btn-4 {
+  transform: translate3d(50px, 50px, 0);
+}
+.demo__buttons.step-3 .demo__social-btn-1 {
+  transform: translate3d(-50px, -50px, 0);
+}
+.demo__buttons.step-3 .demo__social-btn-2 {
+  transform: translate3d(-50px, 50px, 0);
+}
+.demo__buttons.step-3 .demo__social-btn-3 {
+  transform: translate3d(50px, 50px, 0);
+}
+.demo__buttons.step-3 .demo__social-btn-4 {
+  transform: translate3d(50px, -50px, 0);
+} */
+
+.demo__social-btn {
+  position: absolute;
+  left: 65px;
+  top: 65px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: #6e963d;
+}
+
+.demo__social-btn:hover {
+  box-shadow: 0 0 15px #6e963d;
+}
+
+.demo__open-link {
+  width: 30px;
+  height: 30px;
+}
+
+.demo__open-btn {
+  position: absolute;
+  box-sizing: border-box;
+  left: 65px;
+  top: 65px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 50%;
+  border: 2px solid #6e963d;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.demo__open-btn-pulse {
+  animation: pulse 2s infinite;
+}
+
+.demo__open-btn:hover {
+  box-shadow: 0 0 15px #6e963d;
+  animation: none;
+}
+
+.demo__open-img {
+  width: 30px;
+  height: 30px;
+}
+
+@media (max-width: 999px) {
+  .demo__buttons {
+    display: flex;
+  }
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 #6e963d;
+  }
+  70% {
+    -webkit-box-shadow: 0 0 0 30px rgba(204, 169, 44, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 #6e963d;
+    box-shadow: 0 0 0 0 #6e963d;
+  }
+  70% {
+    -moz-box-shadow: 0 0 0 30px rgba(204, 169, 44, 0);
+    box-shadow: 0 0 0 30px rgba(204, 169, 44, 0);
+  }
+  100% {
+    -moz-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+    box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+  }
+}

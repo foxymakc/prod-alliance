@@ -1,0 +1,140 @@
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 130px;
+  background-color: rgb(255, 255, 255);
+  border: 3px solid #95c35b;
+  border-top: none;
+  position: absolute;
+  top: 0;
+  left: 100px;
+  z-index: 2;
+  padding: 10px 5px;
+  transform: translate(0px, -35%);
+  opacity: 0;
+  transition: all 0.5s ease 0.5s;
+}
+
+.logo.active {
+  transform: translate(0px, 0px);
+  opacity: 1;
+}
+
+.logo__img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.logo__img {
+  width: 60px;
+  height: 60px;
+}
+
+.logo__text {
+  font-family: "Evolventa", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: rgb(66, 66, 66);
+  margin: 0;
+}
+
+@media screen and (max-width: 992px) {
+  .logo {
+    left: 70px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 90px;
+  }
+
+  .logo__img-box {
+    width: 40px;
+    height: 40px;
+  }
+
+  .logo__img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .logo__text {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .logo {
+    left: 30px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .logo {
+    width: 95%;
+    height: 400px;
+    padding: 3px;
+    left: 50%;
+    background-color: transparent;
+    transform: translate(-50%, -35%);
+  }
+
+  .logo.active {
+    transform: translate(-50%, 0px);
+  }
+
+  .logo__img-box {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 60px;
+  }
+
+  .logo__img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .logo__text {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .logo__text-span {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .logo {
+    width: 95%;
+    height: 350px;
+    left: 50%;
+  }
+
+  .logo__img-box {
+    margin-bottom: 20px;
+  }
+
+  .logo__img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .logo__text-span {
+    display: block;
+    height: 0;
+  }
+}

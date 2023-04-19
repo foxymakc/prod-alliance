@@ -1,0 +1,27 @@
+.main {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1400px;
+  position: relative;
+  padding: 15px 30px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    padding: 15px 15px 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .main {
+    padding: 15px 10px 0;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .main {
+    padding-top: 0;
+  }
+}

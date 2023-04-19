@@ -1,0 +1,87 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.input__label {
+  font-family: "Evolventa", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-40%);
+  pointer-events: none;
+  transition: 0.5s;
+  background-color: white;
+  padding: 0 5px;
+}
+
+.input__item {
+  border: none;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  font-family: "Evolventa", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 17px;
+  text-align: end;
+  color: #000000;
+  outline: none;
+  background-color: transparent;
+  box-shadow: inset 20px 20px 0px 20px #ffffff;
+}
+
+.input__item:-webkit-autofill:focus:valid {
+  border-bottom: 1px solid #95c35b;
+  border-radius: 10px;
+}
+
+.input__item:focus:valid {
+  border: 1px solid #95c35b;
+  border-radius: 10px;
+}
+
+.input__item:focus:invalid {
+  border: 1px solid #ee3465;
+  border-radius: 10px;
+}
+
+.input__item:invalid {
+  border-bottom: 1px solid #ee3465;
+}
+
+.input__item:valid {
+  border-bottom: 1px solid #95c35b;
+}
+
+.input input:focus ~ label,
+.input input:valid ~ label {
+  top: -2px;
+}
+
+.input__item_error {
+  color: #ee3465;
+}
+
+.input__item_error:focus {
+  border-bottom: 1px solid #ee3465;
+}
+
+.input__error-span {
+  font-family: "Evolventa", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 12px;
+  color: #ee3465;
+  position: absolute;
+  top: 43px;
+  left: 0;
+}

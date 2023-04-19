@@ -1,0 +1,35 @@
+.btn-up {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 5;
+  bottom: 105px;
+  left: 36px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #6e963d9f;
+  color: white;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.btn-up:hover {
+  background-color: rgba(255, 255, 255, 0.712);
+  color: #6e963d;
+  border: 2px solid #6e963d9f;
+  box-shadow: 0 0 15px #6e963d;
+}
+
+.btn-up-hide {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .btn-up {
+    display: none;
+  }
+}
