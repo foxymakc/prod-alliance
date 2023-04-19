@@ -13,4 +13,5 @@
   max-width: 1400px;
   box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2),
     inset -6px -6px 10px 0 rgba(0, 0, 0, 0.2);
+  overflow: hidden;
 }

@@ -139,7 +139,7 @@
     width: 90%;
     flex-direction: row;
     margin-top: 30px;
-    transform: translate(0, -60%);
+    transform: translate(0, 60%);
   }
 
   .about-us__support-img {
