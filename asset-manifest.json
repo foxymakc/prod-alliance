@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/prod-alliance/static/css/main.5b36140c.css",
-    "main.js": "/prod-alliance/static/js/main.e4198d79.js",
+    "main.css": "/prod-alliance/static/css/main.f2caee5f.css",
+    "main.js": "/prod-alliance/static/js/main.703520f7.js",
     "static/js/787.5d9fd846.chunk.js": "/prod-alliance/static/js/787.5d9fd846.chunk.js",
     "static/media/top-img.jpg": "/prod-alliance/static/media/top-img.af4a73a4eb336405e870.jpg",
     "static/media/chicken.jpg": "/prod-alliance/static/media/chicken.752cee415081dec8eb2e.jpg",
@@ -18,12 +18,12 @@
     "static/media/support.png": "/prod-alliance/static/media/support.f81eb65fa925e67c7cdc.png",
     "static/media/logistics.png": "/prod-alliance/static/media/logistics.cbc18498da21d85d239c.png",
     "index.html": "/prod-alliance/index.html",
-    "main.5b36140c.css.map": "/prod-alliance/static/css/main.5b36140c.css.map",
-    "main.e4198d79.js.map": "/prod-alliance/static/js/main.e4198d79.js.map",
+    "main.f2caee5f.css.map": "/prod-alliance/static/css/main.f2caee5f.css.map",
+    "main.703520f7.js.map": "/prod-alliance/static/js/main.703520f7.js.map",
     "787.5d9fd846.chunk.js.map": "/prod-alliance/static/js/787.5d9fd846.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b36140c.css",
-    "static/js/main.e4198d79.js"
+    "static/css/main.f2caee5f.css",
+    "static/js/main.703520f7.js"
   ]
 }
