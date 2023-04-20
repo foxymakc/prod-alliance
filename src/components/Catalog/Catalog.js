@@ -21,6 +21,7 @@ export default function Catalog() {
   };
 
   function cliclProduct(data) {
+    document.body.style.overflow = "hidden";
     if (data === "Мясо") {
       rewriteCatalogPopupTitle("Мясо");
       rewriteCatalogPopupImg(listInfoCatalog.tableMeat);

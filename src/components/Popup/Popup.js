@@ -18,11 +18,12 @@ export default function Popup({ children, open }) {
   };
 
   function closePopup() {
-    if (popup.scrollTop > 0) {
-      setTimeout(() => {
+    document.body.style.overflow = "";
+    setTimeout(() => {
+      if (popup.scrollTop > 0) {
         popup.scrollTop = 0;
-      }, 500);
-    }
+      }
+    }, 500)
     if (popupRedux.catalogPopupActive === true) {
       return clickCatalogPopup(false);
     }

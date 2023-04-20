@@ -8,6 +8,7 @@ export default function Picture() {
   const dispatch = useDispatch();
   const clickRequestPopup = (data) => {
     dispatch(clickRequestPopupAction(data));
+    document.body.style.overflow = "hidden";
   };
   return (
     <section className="picture" id="picture">
