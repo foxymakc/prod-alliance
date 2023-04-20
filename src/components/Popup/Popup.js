@@ -18,8 +18,8 @@ export default function Popup({ children, open }) {
   };
 
   function closePopup() {
-    document.body.style.overflow = "";
     setTimeout(() => {
+      document.body.style.overflow = "";
       if (popup.scrollTop > 0) {
         popup.scrollTop = 0;
       }
