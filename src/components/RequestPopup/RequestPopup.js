@@ -5,6 +5,7 @@ import Input from "../Input/Input";
 import { useSelector } from "react-redux";
 import useValidation from "../../utils/hooks/useValidation";
 import { listInfoRequestPopup } from "../../utils/consts";
+import agreement from "../../utils/agreement.DOCX"
 
 export default function RequestPopup() {
   const { values, handleChange, errors, isValid, resetForm } = useValidation();
@@ -62,6 +63,10 @@ export default function RequestPopup() {
           />
           <p className="request-popup__text">
             {listInfoRequestPopup.requestPopupText}
+          </p>
+          <p className="request-popup__text-agreement">
+            Нажимая кнопку «Отправить» Вы соглашаетесь на обработку
+            предоставленных вами <span><a className="request-popup__text-file-agreement" href={agreement}>персональных данных</a></span>.
           </p>
           <button
             type="submit"

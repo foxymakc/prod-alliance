@@ -111,7 +111,7 @@ export const listInfoContacts = {
       id: 3,
       img: imgContactsEmail,
       title: "ПОЧТА",
-      text: "office@prod-a.ru",
+      text: "Rifor_m@mail.ru",
     },
   ],
 };
@@ -171,5 +171,5 @@ export const listInfoRequestPopup = {
   requestPopupSubtitle:
     "В течение 10-20 минут наш менеджер отправит актуальный прайс-лист на Ваш email.",
   requestPopupText:
-    "Если у вас возникли вопросы, можете позвонить по телефону: +7 (903) 722-18-26 или напишите на наш email: office@prod-a.ru",
+    "Если у вас возникли вопросы, можете позвонить по телефону: +7 (903) 722-18-26 или напишите на наш email: Rifor_m@mail.ru",
 };
