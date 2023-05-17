@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/prod-alliance/static/css/main.c523f3e3.css",
-    "main.js": "/prod-alliance/static/js/main.84ea2b4c.js",
+    "main.js": "/prod-alliance/static/js/main.6b2b80c7.js",
     "static/js/787.5d9fd846.chunk.js": "/prod-alliance/static/js/787.5d9fd846.chunk.js",
     "static/media/top-img.jpg": "/prod-alliance/static/media/top-img.af4a73a4eb336405e870.jpg",
     "static/media/chicken.jpg": "/prod-alliance/static/media/chicken.752cee415081dec8eb2e.jpg",
@@ -19,13 +19,14 @@
     "static/media/links-freepik.docx": "/prod-alliance/static/media/links-freepik.434590764cfa1fc61b84.docx",
     "static/media/support.png": "/prod-alliance/static/media/support.f81eb65fa925e67c7cdc.png",
     "static/media/logistics.png": "/prod-alliance/static/media/logistics.cbc18498da21d85d239c.png",
+    "static/media/form.php": "/prod-alliance/static/media/form.3ec3168a97f736ecfadb.php",
     "index.html": "/prod-alliance/index.html",
     "main.c523f3e3.css.map": "/prod-alliance/static/css/main.c523f3e3.css.map",
-    "main.84ea2b4c.js.map": "/prod-alliance/static/js/main.84ea2b4c.js.map",
+    "main.6b2b80c7.js.map": "/prod-alliance/static/js/main.6b2b80c7.js.map",
     "787.5d9fd846.chunk.js.map": "/prod-alliance/static/js/787.5d9fd846.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c523f3e3.css",
-    "static/js/main.84ea2b4c.js"
+    "static/js/main.6b2b80c7.js"
   ]
 }
