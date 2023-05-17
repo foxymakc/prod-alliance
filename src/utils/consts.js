@@ -22,6 +22,8 @@ import imgContactsPhone from "../images/phone-call.png";
 import imgContactsEmail from "../images/mail.png";
 //////////Picture//////////
 import imgPicture from "../images/top-img.jpg";
+//////////Footer//////////
+import linksFreepik from "../utils/links-freepik.docx"
 
 //////////AboutUs//////////
 export const listInfoAboutUs = {
@@ -129,7 +131,7 @@ export const listInfoFooter = {
     },
     {
       id: 2,
-      href: "https://ru.freepik.com/free-photo/",
+      href: linksFreepik,
       text: "Изображения на Freepik",
     },
   ],

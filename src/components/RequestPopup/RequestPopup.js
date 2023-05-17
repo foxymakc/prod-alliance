@@ -5,7 +5,7 @@ import Input from "../Input/Input";
 import { useSelector } from "react-redux";
 import useValidation from "../../utils/hooks/useValidation";
 import { listInfoRequestPopup } from "../../utils/consts";
-import agreement from "../../utils/agreement.DOCX"
+import agreement from "../../utils/agreement.docx"
 
 export default function RequestPopup() {
   const { values, handleChange, errors, isValid, resetForm } = useValidation();
