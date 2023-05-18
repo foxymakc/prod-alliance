@@ -127,7 +127,7 @@ export const listInfoFooter = {
     {
       id: 1,
       href: "https://www.flaticon.com/ru/free-icons/",
-      text: "Иконки от Freepik - Flaticon",
+      text: "Иконки от Flaticon",
     },
     {
       id: 2,

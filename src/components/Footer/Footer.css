@@ -31,8 +31,8 @@
   padding: 10px 5px;
   border-radius: 30px;
   margin-bottom: 10px;
-  box-shadow: inset 8px 8px 10px 0 rgba(0, 0, 0, 0.2),
-    inset -8px -8px 10px 0 rgba(255, 255, 255, 0.5);
+  /* box-shadow: inset 8px 8px 10px 0 rgba(0, 0, 0, 0.2),
+    inset -8px -8px 10px 0 rgba(255, 255, 255, 0.5); */
 }
 
 .footer__logo-img-box {

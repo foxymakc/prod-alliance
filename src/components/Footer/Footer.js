@@ -24,7 +24,7 @@ export default function Footer() {
           <a
             className="footer__link"
             href={elm.href}
-            title="иконки"
+            title={elm.text}
             key={elm.id}
           >
             {elm.text}
